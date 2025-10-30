@@ -1,32 +1,23 @@
-# 💰 Advanced Expense Tracker Web App
+# 💰 Expense Tracker Web App
 
-A full-featured **Python + Flask + Pandas + Plotly** web application for managing and analyzing expenses.
-
----
+A Flask-based web application that helps manage and visualize daily expenses using Pandas and Plotly.
 
 ## 🚀 Features
-- Add, view, and analyze daily expenses
-- Category-wise interactive pie charts
-- Auto CSV creation & dynamic data handling
-- Fully responsive UI with Bootstrap 5
-- Ready to deploy on Render or PythonAnywhere
-
----
+- Add and view expenses with category & date
+- Auto CSV creation (no setup required)
+- Interactive charts for category-wise spending
+- Clean Bootstrap-based UI
+- Ready to deploy on Render (Free)
 
 ## 🧠 Tech Stack
 - **Backend:** Flask, Pandas
-- **Frontend:** HTML, CSS (Bootstrap 5)
+- **Frontend:** HTML, CSS (Bootstrap)
 - **Visualization:** Plotly
-- **Database:** CSV file (auto-managed)
 
----
+[//]: # (## ⚙️ Local Run)
 
-[//]: # (## ⚙️ Run Locally)
+[//]: # (```bash)
 
-[//]: # (1. Clone the repo)
+[//]: # (pip install -r requirements.txt)
 
-[//]: # (   ```bash)
-
-[//]: # (   git clone https://github.com/<your-username>/expense-tracker.git)
-
-[//]: # (   cd expense-tracker)
+[//]: # (python expense_tracker.py)
